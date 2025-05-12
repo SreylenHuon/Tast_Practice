@@ -1,10 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { HeaderComponent } from "./component/HeaderComponent";
-import { ProfileComponent } from "./component/ProfileComponent";
-import { HeaderContentComponent } from "./component/HeaderContentComponent";
-import { CardComponent, ContentBodyComponent } from "./component/CardComponent";
-import { FooterComponent } from "./component/FooterComponent";
+import { HeaderComponent } from "../component/HeaderComponent";
+import { ProfileComponent } from "../component/ProfileComponent";
+import { HeaderContentComponent } from "../component/HeaderContentComponent";
+import {
+  CardComponent,
+  ContentBodyComponent,
+} from "../component/CardComponent";
+import { FooterComponent } from "../component/FooterComponent";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
