@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
   --background: #ffffff;
-  --color-teal: #309898;
-  --color-yellow: #ff9f00;
+  /* --color-teal: #309898;
+  --yellow: #ff9f00;
   --color-pink: #e55050;
   --color-red: #cb0404;
-  --color-darkblue: #183b4e;
+  --color-darkblue: #183b4e; */
   --font-rubik: "Rubik", sans-serif;
 }
 
@@ -18,4 +18,22 @@
 body {
   background: var(--background);
   font-family: var(--font-rubik);
+}
+.color-teal {
+  color: #309898;
+}
+.color-yellow {
+  color: #ff9f00;
+}
+.color-pink {
+  color: #e55050;
+}
+.color-red {
+  color: #cb0404;
+}
+.color-darkblue {
+  color: #183b4e;
+}
+.bg-color-gray {
+  color: #f6f6f6;
 }

@@ -11,9 +11,11 @@ export const ProfileComponent = () => {
             alt="profile img"
           />
         </div>
-        <span className="flex flex-col text-[var(--color-teal)]">
-          <p className="text-[var(--color-teal) font-bold text-lg">Monter</p>
-          <p className="text-[var(--color-darkblue)] text-sm">
+        <span className="flex flex-col color-teal ">
+          <p className="color-teal font-bold text-lg md:text-sm md:font-medium lg:font-semibold 2xl:font-bold">
+            Monter
+          </p>
+          <p className="color-darkblue text-sm md:text-[12px] lg:text-[13px] 2xl:text-sm ">
             Either being happy or sad you decide.
           </p>
         </span>

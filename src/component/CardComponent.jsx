@@ -3,13 +3,13 @@ import React from "react";
 export const CardComponent = () => {
   return (
     <>
-      <article className="w-[300px]    flex flex-col gap-5">
+      <article className="2xl:w-75   flex flex-col gap-5 md:w-56 lg:w-70">
         <img
           className="w-[352px] h-[263px] rounded-[30px]"
           src="https://i.pinimg.com/736x/57/3e/b6/573eb677974787904ef0ac83c1af4511.jpg"
           alt=""
         />
-        <div className="text-[var(--color-teal)] flex justify-between ">
+        <div className="color-teal flex justify-between ">
           <p className="font-bold text-xl">Switzerland</p>
           <p className="text-[12px] flex justify-center items-center gap-2">
             <svg
@@ -38,11 +38,11 @@ export const CardComponent = () => {
             Jun 26, 2025
           </p>
         </div>
-        <div className="text-[var(--color-darkblue)] text-lg">
+        <div className="color-darkblue text-lg">
           This picture was taken in Europe. I went there last month with my
           special person. It was such a romantic date.
         </div>
-        <button className="text-[var(--color-red)] ml-45 text-sm flex justify-center items-center gap-2">
+        <button className="color-red ml-45 text-sm flex justify-center items-center gap-2">
           Read More
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export const CardComponent = () => {
               stroke="#cb0404"
               strokeLinecap="round"
               strokeLinejoin="round"
-              stroke-miterlimit="10"
+              strokeMiterlimit="10"
               strokeWidth="1.5"
               d="M14.43 5.93L20.5 12l-6.07 6.07M3.5 12h16.83"
             ></path>
